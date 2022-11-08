@@ -1,0 +1,20 @@
+// INICIA O GIT NO PROJETO
+git init
+// ADICIONA TODOS OS ARQUIVOS PARA SUBIR 
+git add .
+
+// --------------------------------
+// ASSINATURA DO CRIADOR
+git config --global user.name "Márcio Ferreira"
+git config --global user.email "profhaeliomarcio@gmail.com"
+
+// ASSINA TODOS OS ARQUIVOS COM O COMENTÁRIO ABAIXO
+git  commit -m "Comentário"
+
+// PARA SABER SE JÁ ESTÁ CONFIGURADO
+git config --global user.name
+git config --global user.email
+
+// PARA SUBIR OS ARQUIVOS
+git push -u origin main
+
